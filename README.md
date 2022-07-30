@@ -4,9 +4,9 @@ A web application using Dash (a python framework) and some machine learning mode
 
 
 Steps to use web application:
-*Input stock code to get company information 
-*Select date range to get stock price and estimated moving average plots
-*Input number of days to get forecast
+* Input stock code to get company information 
+* Select date range to get stock price and estimated moving average plots
+* Input number of days to get forecast
 
 
 Output will be displayed.
