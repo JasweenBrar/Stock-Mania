@@ -18,7 +18,7 @@ def get_stock_price_fig(df):
     fig = px.line(df,
                   x="Date",
                   y=["Close", "Open"],
-                  title="Closing and Openning Price vs Date")
+                  title="Closing and Opening Price vs Date")
 
     return fig
 
@@ -45,7 +45,7 @@ app.layout = html.Div(
         html.Div(
             [
                 # Navigation
-                html.P("Welcome to the Stock Dash App!", className="start"),
+                html.P("Stock Mania Website!", className="start"),
                 html.Div([
                     html.P("Input stock code: "),
                     html.Div([
@@ -71,7 +71,7 @@ app.layout = html.Div(
                                 id="indicators"),
                     dcc.Input(id="n_days",
                               type="text",
-                              placeholder="number of days"),
+                              placeholder="Number of days"),
                     html.Button(
                         "Forecast", className="forecast-btn", id="forecast")
                 ],
@@ -110,7 +110,7 @@ app.layout = html.Div(
 ], [Input("submit", "n_clicks")], [State("dropdown_tickers", "value")])
 def update_data(n, val):  # inpur parameter(s)
     if n == None:
-        return "Hey there! Please enter a legitimate stock code to get details.", "assets/stonk-img.jpg", "Stocks", None, None, None
+        return "Hey there! Please enter a legitimate stock code to get details.", "assets/stock.jpg", "Stocks", None, None, None
         # raise PreventUpdate
     else:
         if val == None:
