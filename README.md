@@ -1,6 +1,7 @@
 # Stock-Mania
 
 
+
 💹 Stock investments provide one of the highest returns in the market. Even though they are volatile in nature, one can visualize share prices and other statistical factors which helpsthe keen investors carefully decide on which company they want to spend their earnings on.
 
 
@@ -9,6 +10,7 @@
 :star: A web application using Dash (a python framework) and some machine learning models which will show company information (logo, registered name and description) and stock plots based on the stock code given by the user. 
 
 :star: Also the ML model will enable the user to get predicted stock prices for the date entered by the user.
+
 
 
 Steps to use web application:
@@ -21,6 +23,7 @@ Steps to use web application:
 Output will be displayed.
 
 
+
 ### *Convention followed :*
 
 * app.py - contains web layout and server function.(our main file).
@@ -29,12 +32,14 @@ Output will be displayed.
 * requirements.txt - contains correct versions of the required Python packages to run our Python code.
 
 
+
 ***Libraries used***
 
 1. numpy library is used for multi-dimensional array operations.
 2. pandas is used for creating DataFrames to efficiently manage the data.
 3. yfinance is a library that allows us to fetch financial data of a company (since its listing in the stock market) from its stock code directly.
 4. sklearn and scikit-learn are tools used in the development of Machine Learning (ML) models.
+
 
 
 
@@ -49,7 +54,9 @@ Output will be displayed.
 💠 The support vector regression (SVR) module from the sklearn library is used to build the ML model.
 
 
+
 ✔️ *To run your Dash app's server locally - $python app.py*
+
 
 
 ### Our website looks like :
@@ -59,6 +66,7 @@ Output will be displayed.
 
 
 On entering code and other inputs we obtain output :
+
 
 ![img](./assets/img1.png)
 
