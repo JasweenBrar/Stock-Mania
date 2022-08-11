@@ -1,7 +1,7 @@
 # Stock-Mania
 
 
-Stock investments provide one of the highest returns in the market. Even though they are volatile in nature, one can visualize share prices and other statistical factors which helpsthe keen investors carefully decide on which company they want to spend their earnings on.
+💹 Stock investments provide one of the highest returns in the market. Even though they are volatile in nature, one can visualize share prices and other statistical factors which helpsthe keen investors carefully decide on which company they want to spend their earnings on.
 
 ### We develop this simple project idea by creating :
 
@@ -20,7 +20,7 @@ Steps to use web application:
 Output will be displayed.
 
 
-###*Convention followed :*
+### *Convention followed :*
 
 * app.py - contains web layout and server function.(our main file).
 * model.py - implemented a machine learning model for forecasting the stock price.
@@ -45,13 +45,13 @@ Output will be displayed.
 💠 The support vector regression (SVR) module from the sklearn library is used to build the ML model.
 
 
-*To run your Dash app's server locally - $python app.py*
+✔️ *To run your Dash app's server locally - $python app.py*
 
 
-## Our website looks like :
-!(./assets/img0.png)
+### Our website looks like :
+![img](./assets/img0.png)
 
 On entering code and other inputs we obtain output :
-!(./assets/img1.png)
-!(./assets/img2.png)
-!(./assets/img3.png)
+![img](./assets/img1.png)
+![img](./assets/img2.png)
+![img](./assets/img3.png)
