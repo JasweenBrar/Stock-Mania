@@ -62,7 +62,7 @@ Output will be displayed.
 ### Our website looks like :
 
 
-![img](Stock-Mania/assets/img0.png)
+![img](./assets/img0.png)
 
 
 On entering code and other inputs we obtain output :
