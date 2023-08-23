@@ -63,15 +63,16 @@ Output will be displayed.
 
 
 ![img](./assets/img0.png)
-
+----
 
 On entering code and other inputs we obtain output :
 
 
 ![img](./assets/img1.png)
-
+----
 
 ![img](./assets/img2.png)
-
+----
 
 ![img](./assets/img3.png)
+-----
